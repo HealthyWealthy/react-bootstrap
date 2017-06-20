@@ -124,6 +124,7 @@ class OverlayTrigger extends React.Component {
 
   componentDidMount() {
     this._mountNode = document.createElement('div');
+    this._mountNode.className = 'hiqBootstrap';
     this.renderOverlay();
   }
 
